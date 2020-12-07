@@ -723,6 +723,27 @@ ul.ul-exp li .description p.institution {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
+
+.card .dateten.card-image.hover-overlay:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  transform: translate(0, -50%);
+  opacity: 0;
+  transition: all 0.2s ease-out;
+  font-family: 'FontAwesome';
+  content: 'Posted 08/12/2020';
+  text-align: center;
+  font-size: 2rem;
+  color:#000080;
+  font-weight:bold;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
 code {
   color:blue !important;
   background-color:#FF99CC;
